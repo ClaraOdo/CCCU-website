@@ -5,59 +5,99 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const galleryItems = [
+    // AMECEA
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Training Workshop',
-      description: 'CCCU team conducting child protection training for Religious caregivers'
+      src: '/Gallery/AMECEA/IMG_0468-1024x683.jpg',
+      title: 'AMECEA Gathering',
+      description: 'Event at AMECEA - CCCU community engagement.'
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613090/pexels-photo-8613090.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Community Engagement',
-      description: 'Field work activities in rural communities across Uganda'
+      src: '/Gallery/AMECEA/IMG_0448-1024x683.jpg',
+      title: 'AMECEA Group',
+      description: 'Group photo at AMECEA event.'
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613091/pexels-photo-8613091.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Children at Play',
-      description: 'Children in our care institutions enjoying recreational activities'
+      src: '/Gallery/AMECEA/IMG_0444-1024x683.jpg',
+      title: 'AMECEA Session',
+      description: 'Session in progress at AMECEA.'
+    },
+    // Training-field
+    {
+      type: 'image',
+      src: '/Gallery/Training-field/IMG_2106-1024x573.jpg',
+      title: 'Field Training',
+      description: 'Hands-on training session in the field.'
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613092/pexels-photo-8613092.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Nutrition Assessment',
-      description: 'SPOON team conducting nutrition monitoring using digital health tools'
+      src: '/Gallery/Training-field/IMG_2109-1024x492.jpg',
+      title: 'Training Discussion',
+      description: 'Interactive discussion during field training.'
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613093/pexels-photo-8613093.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Family Reintegration',
-      description: 'Successful family reunification ceremony'
+      src: '/Gallery/Training-field/IMG_2112-1024x573.jpg',
+      title: 'Team Learning',
+      description: 'Team members learning together in the field.'
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613094/pexels-photo-8613094.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Educational Support',
-      description: 'Children receiving educational support in our programs'
+      src: '/Gallery/Training-field/IMG_2118-1024x573.jpg',
+      title: 'Training Collaboration',
+      description: 'Collaborative training activity outdoors.'
+    },
+    // Iganga Case Closure
+    {
+      type: 'image',
+      src: '/Gallery/Iganga_case_closure/IMG_0204-1536x1024.jpg',
+      title: 'Iganga Case Closure',
+      description: 'Case closure event in Iganga.'
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613095/pexels-photo-8613095.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'GHR Foundation Visit',
-      description: 'Daniel and Sarah from GHR Foundation visiting our facilities'
+      src: '/Gallery/Iganga_case_closure/IMG_0161-1536x1024.jpg',
+      title: 'Iganga Community',
+      description: 'Community gathering in Iganga.'
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613096/pexels-photo-8613096.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Capacity Building',
-      description: 'Religious leaders participating in capacity building workshops'
+      src: '/Gallery/Iganga_case_closure/IMG_0152-1536x1024.jpg',
+      title: 'Iganga Ceremony',
+      description: 'Ceremony at Iganga case closure.'
     },
     {
       type: 'image',
-      src: 'https://images.pexels.com/photos/8613097/pexels-photo-8613097.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Healthcare Services',
-      description: 'Medical check-ups and healthcare services for children'
+      src: '/Gallery/Iganga_case_closure/IMG_0137-1536x1024.jpg',
+      title: 'Iganga Smiles',
+      description: 'Smiles and joy at Iganga event.'
+    },
+    // Jinja Soap
+    {
+      type: 'image',
+      src: '/Gallery/Jinja_soap/IMG_9998-1024x573.jpg',
+      title: 'Jinja Soap Project',
+      description: 'Soap making project in Jinja.'
+    },
+    {
+      type: 'image',
+      src: '/Gallery/Jinja_soap/IMG_9954-1024x573.jpg',
+      title: 'Jinja Soap Team',
+      description: 'Teamwork at Jinja soap project.'
+    },
+    {
+      type: 'image',
+      src: '/Gallery/Jinja_soap/IMG_9949-1024x573.jpg',
+      title: 'Jinja Soap Process',
+      description: 'Soap production process in Jinja.'
+    },
+    {
+      type: 'image',
+      src: '/Gallery/Jinja_soap/IMG_9935-1024x573.jpg',
+      title: 'Jinja Soap Smiles',
+      description: 'Smiles at the Jinja soap project.'
     }
   ];
 
