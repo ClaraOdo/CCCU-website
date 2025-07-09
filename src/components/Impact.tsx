@@ -15,7 +15,7 @@ const Impact = () => {
     <section id="impact" className="py-20 bg-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Impact</h2>
+            <h2 className="text-4xl font-bold text-emerald-700 mb-4">Our Impact</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             At Catholic Care for Children in Uganda (CCCU), we believe that every child deserves the love, safety, and dignity of family life. Since 2016, CCCU has been quietly transforming how care is given to Uganda’s most vulnerable children, helping them grow not in institutions, but in the embrace of families and communities that nurture and belong.
           </p>

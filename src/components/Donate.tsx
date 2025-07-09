@@ -24,7 +24,7 @@ const Donate = () => {
           <div className="bg-emerald-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
             <Heart className="h-10 w-10 text-white" />
           </div>
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Support Our Mission</h2>
+          <h2 className="text-4xl font-bold text-emerald-700 mb-4">Support Our Mission</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Your donation directly impacts vulnerable children across Uganda, helping us provide better care, 
             nutrition, and family-based solutions for those who need it most.

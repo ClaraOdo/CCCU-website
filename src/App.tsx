@@ -12,6 +12,8 @@ import Spoon from './components/Spoon';
 import SpoonTeam from './components/SpoonTeam';
 import SpoonImpact from './components/SpoonImpact';
 import Donate from './components/Donate';
+import OurPartners from './components/OurPartners';
+import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
       <SpoonTeam />
       <SpoonImpact />
       <Donate />
+      <OurPartners />
+      <ContactUs />
       <Footer />
     </div>
   );

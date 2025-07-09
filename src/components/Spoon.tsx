@@ -36,7 +36,7 @@ const Spoon = () => {
     <section id="spoon" className="py-20 bg-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">SPOON Partnership</h2>
+          <h2 className="text-4xl font-bold text-emerald-700 mb-4">SPOON Partnership</h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto">
             A global nonprofit organization working to ensure that children with disabilities and children 
             without family care are reached by systems that prioritize, include, and meet their nutrition and feeding needs.

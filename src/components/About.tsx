@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-20 bg-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About CCCU</h2>
+          <h2 className="text-4xl font-bold text-emerald-700 mb-4">About CCCU</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             An initiative under the Association of Religious in Uganda (ARU), representing over 7,000 Catholic sisters, priests, and brothers from 112 Religious Institutes.
           </p>

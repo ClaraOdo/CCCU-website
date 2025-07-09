@@ -20,7 +20,7 @@ const SpoonImpact = () => {
     <section id="spoon-impact" className="py-20 bg-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">SPOON Impact</h2>
+          <h2 className="text-4xl font-bold text-emerald-700 mb-4">SPOON Impact</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Remarkable improvements in nutrition outcomes for children living outside family care and children with disabilities
           </p>

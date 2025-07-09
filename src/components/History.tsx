@@ -6,7 +6,7 @@ const History = () => {
     <section id="history" className="py-20 bg-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our History</h2>
+            <h2 className="text-4xl font-bold text-emerald-700 mb-4">Our History</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             The journey of CCCU began with a vision to transform child care and protection in Uganda
           </p>

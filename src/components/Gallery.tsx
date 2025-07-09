@@ -125,13 +125,13 @@ const Gallery = () => {
     <section id="gallery" className="py-20 bg-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Gallery</h2>
+          <h2 className="text-4xl font-bold text-emerald-700 mb-4">Gallery</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Visual stories of our impact, events, and the children we serve across Uganda
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        {/* <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 p-8 rounded-2xl text-center border-2 border-emerald-200">
             <div className="bg-emerald-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
               <Image className="h-8 w-8 text-white" />
@@ -161,7 +161,7 @@ const Gallery = () => {
               Behind-the-scenes moments from workshops, visits, and milestone celebrations
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Photo Gallery Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
