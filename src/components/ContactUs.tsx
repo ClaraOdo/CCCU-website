@@ -13,7 +13,7 @@ const ContactUs = () => (
         <h4 className="text-xl font-bold text-gray-900 mb-2">Media Channels</h4>
         <div className="flex flex-col items-center gap-2">
           <a href="https://twitter.com/CCCUOfficial" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">X: Catholic Care for Children in Uganda @CCCUOfficial</a>
-          <a href="https://www.youtube.com/cccu_official" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">YouTube channel: www.youtube.com/cccu_official</a>
+          <a href="https://www.youtube.com/@cccu_official" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">YouTube channel: www.youtube.com/@cccu_official</a>
         </div>
       </div>
     </div>
