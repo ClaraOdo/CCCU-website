@@ -16,6 +16,8 @@ import OurPartners from './components/OurPartners';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import Newsletter from './components/Newsletter';
+import ImpactInNumbers from './components/ImpactInNumbers';
+import Resources from './components/Resources';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
       <Donate />
       <OurPartners />
       <ContactUs />
+      <Resources />
+      <ImpactInNumbers />
       <Newsletter />
       <Footer />
     </div>
