@@ -63,14 +63,14 @@ const Hero = () => {
       {/* Slider controls */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/60 hover:bg-white text-emerald-600 rounded-full p-3 shadow-lg z-30"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/60 hover:bg-white text-emerald-600 rounded-full p-3 shadow-lg z-30 hidden sm:block"
         aria-label="Previous Slide"
       >
         <ChevronLeft className="h-7 w-7" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/60 hover:bg-white text-emerald-600 rounded-full p-3 shadow-lg z-30"
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/60 hover:bg-white text-emerald-600 rounded-full p-3 shadow-lg z-30 hidden sm:block"
         aria-label="Next Slide"
       >
         <ChevronRight className="h-7 w-7" />
