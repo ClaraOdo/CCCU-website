@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Camera, Image, Video, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Camera, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -162,6 +162,20 @@ const Gallery = () => {
             </p>
           </div>
         </div> */}
+
+        <div className="mb-12 flex justify-center">
+          <div className="w-full max-w-2xl aspect-video rounded-xl overflow-hidden shadow-lg">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/UBilaeB9NbI"
+              title="CCCU Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
         {/* Photo Gallery Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">

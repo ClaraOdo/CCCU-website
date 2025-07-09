@@ -15,6 +15,7 @@ import Donate from './components/Donate';
 import OurPartners from './components/OurPartners';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <Donate />
       <OurPartners />
       <ContactUs />
+      <Newsletter />
       <Footer />
     </div>
   );
