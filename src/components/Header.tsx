@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Menu, X, DollarSign } from 'lucide-react';
+import { Menu, X, DollarSign, ChevronDown, ChevronRight } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [aboutDropdown, setAboutDropdown] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
 
   const navItems = [
     // { name: 'About Us', href: '#about' },
@@ -106,19 +107,31 @@ const Header = () => {
             <nav className="flex flex-col space-y-4">
               {/* About Us Section */}
               <div className="border-b border-gray-200 pb-4">
-                <div className="text-gray-900 font-semibold mb-2">About Us</div>
-                <div className="flex flex-col space-y-2 ml-4">
-                  {aboutLinks.map((link) => (
-                    <a
-                      key={link.name}
-                      href={link.href}
-                      className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {link.name}
-                    </a>
-                  ))}
-                </div>
+                <button
+                  onClick={() => setMobileAboutOpen(!mobileAboutOpen)}
+                  className="flex items-center justify-between w-full text-gray-900 font-semibold mb-2 hover:text-emerald-600 transition-colors duration-200"
+                >
+                  <span>About Us</span>
+                  {mobileAboutOpen ? (
+                    <ChevronDown className="h-4 w-4" />
+                  ) : (
+                    <ChevronRight className="h-4 w-4" />
+                  )}
+                </button>
+                {mobileAboutOpen && (
+                  <div className="flex flex-col space-y-2 ml-4">
+                    {aboutLinks.map((link) => (
+                      <a
+                        key={link.name}
+                        href={link.href}
+                        className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        {link.name}
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
               
               {/* Other nav items */}
