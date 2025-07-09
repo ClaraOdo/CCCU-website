@@ -9,11 +9,11 @@ const Header = () => {
     // { name: 'About Us', href: '#about' },
     { name: 'Mile Stones', href: '#milestones' },
     { name: 'Team', href: '#team' },
-    { name: 'Gallery', href: '#gallery' },
     // { name: 'History', href: '#history' },
     { name: 'Achievements', href: '#achievements' },
-    { name: 'Resources', href: '#resources' },
+    { name: 'Gallery', href: '#gallery' },
     { name: 'Impact', href: '#impact' },
+    { name: 'Resources', href: '#resources' },
     { name: 'SPOON', href: '#spoon' },
   ];
 

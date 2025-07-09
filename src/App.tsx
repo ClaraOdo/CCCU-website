@@ -27,18 +27,18 @@ function App() {
       <About />
       <Milestones />
       <Team />
-      <Gallery />
       <History />
       <Achievements />
+      <Gallery />
       <Impact />
+      <ImpactInNumbers />
+      <Resources />
       <Spoon />
       <SpoonTeam />
       <SpoonImpact />
       <Donate />
       <OurPartners />
       <ContactUs />
-      <Resources />
-      <ImpactInNumbers />
       <Newsletter />
       <Footer />
     </div>
