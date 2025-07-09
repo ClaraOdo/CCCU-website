@@ -16,7 +16,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
+    <header className="bg-emerald-600 shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
@@ -26,8 +26,8 @@ const Header = () => {
               className="h-16 w-16 rounded-full object-cover shadow-lg border-2 border-emerald-200"
             />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">CCCU</h1>
-              <p className="text-sm text-gray-600">Catholic Care for Children</p>
+              <h1 className="text-xl font-bold text-white">CCCU</h1>
+              <p className="text-sm text-emerald-100">Catholic Care for Children</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
+                className="text-white hover:text-emerald-200 transition-colors duration-200 font-medium"
               >
                 {item.name}
               </a>
