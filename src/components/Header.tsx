@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Heart, DollarSign } from 'lucide-react';
+import { Menu, X, DollarSign } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -104,6 +104,24 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col space-y-4">
+              {/* About Us Section */}
+              <div className="border-b border-gray-200 pb-4">
+                <div className="text-gray-900 font-semibold mb-2">About Us</div>
+                <div className="flex flex-col space-y-2 ml-4">
+                  {aboutLinks.map((link) => (
+                    <a
+                      key={link.name}
+                      href={link.href}
+                      className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {link.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              
+              {/* Other nav items */}
               {navItems.map((item) => (
                 <a
                   key={item.name}
