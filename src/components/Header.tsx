@@ -5,6 +5,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [aboutDropdown, setAboutDropdown] = useState(false);
   const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
+  const [resourcesDropdown, setResourcesDropdown] = useState(false);
+  const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
 
   const navItems = [
     // { name: 'About Us', href: '#about' },
@@ -14,7 +16,7 @@ const Header = () => {
     { name: 'Achievements', href: '#achievements' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Impact', href: '#impact' },
-    { name: 'Resources', href: '#resources' },
+    // { name: 'Resources', href: '#resources' }, // Remove this line
     { name: 'SPOON', href: '#spoon' },
   ];
 
@@ -25,6 +27,11 @@ const Header = () => {
     { name: 'History', href: '#history' },
     { name: 'Our Partners', href: '#partners' },
     { name: 'Contact Us', href: '#contact' },
+  ];
+
+  const resourcesLinks = [
+    { name: 'Newsletter', href: '#newsletter' },
+    { name: 'Policy Documents', href: '#resources' },
   ];
 
   return (
@@ -59,6 +66,31 @@ const Header = () => {
               {aboutDropdown && (
                 <div className="absolute left-0 w-56 bg-white rounded-lg shadow-lg py-2 z-50">
                   {aboutLinks.map((link) => (
+                    <a
+                      key={link.name}
+                      href={link.href}
+                      className="block px-4 py-2 text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium hover:bg-emerald-50 bg-white"
+                    >
+                      {link.name}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+            {/* Resources Dropdown */}
+            <div className="relative group" onMouseEnter={() => setResourcesDropdown(true)} onMouseLeave={() => setResourcesDropdown(false)}>
+              <button
+                className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium focus:outline-none flex items-center gap-1"
+                aria-haspopup="true"
+                aria-expanded={resourcesDropdown}
+                type="button"
+              >
+                Resources
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
+              </button>
+              {resourcesDropdown && (
+                <div className="absolute left-0 w-56 bg-white rounded-lg shadow-lg py-2 z-50">
+                  {resourcesLinks.map((link) => (
                     <a
                       key={link.name}
                       href={link.href}
@@ -133,7 +165,34 @@ const Header = () => {
                   </div>
                 )}
               </div>
-              
+              {/* Resources Section */}
+              <div className="border-b border-gray-200 pb-4">
+                <button
+                  onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}
+                  className="flex items-center justify-between w-full text-gray-900 font-semibold mb-2 hover:text-emerald-600 transition-colors duration-200"
+                >
+                  <span>Resources</span>
+                  {mobileResourcesOpen ? (
+                    <ChevronDown className="h-4 w-4" />
+                  ) : (
+                    <ChevronRight className="h-4 w-4" />
+                  )}
+                </button>
+                {mobileResourcesOpen && (
+                  <div className="flex flex-col space-y-2 ml-4">
+                    {resourcesLinks.map((link) => (
+                      <a
+                        key={link.name}
+                        href={link.href}
+                        className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        {link.name}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
               {/* Other nav items */}
               {navItems.map((item) => (
                 <a
