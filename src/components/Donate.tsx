@@ -119,13 +119,13 @@ const Donate = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:info@cccu.org"
+              href="mailto:cccucoord@aruconference.org"
               className="bg-emerald-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition-colors duration-200"
             >
               Contact for Partnerships
             </a>
             <a
-              href="tel:+256"
+              href="tel:+256 772 576 399"
               className="border-2 border-emerald-600 text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-emerald-600 hover:text-white transition-all duration-200"
             >
               Call Us

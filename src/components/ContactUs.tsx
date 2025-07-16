@@ -5,7 +5,7 @@ const ContactUs = () => (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 className="text-4xl font-bold text-emerald-700 mb-8 text-center">Contact Us</h2>
       <div className="text-lg text-gray-700 max-w-2xl mx-auto mb-6 text-center">
-        <p>Email: <a href="mailto:info@cccu.org" className="text-emerald-700 underline">info@cccu.org</a>, <a href="mailto:cccu2016@gmail.com" className="text-emerald-700 underline">cccu2016@gmail.com</a></p>
+        <p>Email: <a href="mailto:cccucoord@aruconference.org" className="text-emerald-700 underline">cccucoord@aruconference.org</a>, <a href="mailto:cccu2016@gmail.com" className="text-emerald-700 underline">cccu2016@gmail.com</a></p>
         <p>Call us: <span className="font-semibold">+256 772 558 244</span> – Director</p>
         <p>Call us: <span className="font-semibold">+256 772 576 399</span> – National Coordinator</p>
       </div>

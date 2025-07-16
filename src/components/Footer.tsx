@@ -56,13 +56,13 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-emerald-400 flex-shrink-0" />
-                <a href="mailto:info@cccu.org" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
-                  info@cccu.org
+                <a href="mailto:cccucoord@aruconference.org" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
+                  cccucoord@aruconference.org
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-emerald-400 flex-shrink-0" />
-                <a href="tel:+256" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
+                <a href="tel:+256 772 576 399" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
                   +256 772 576 399
                 </a>
               </div>
