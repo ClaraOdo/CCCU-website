@@ -3,6 +3,7 @@ import React from 'react';
 const resources = [
   { name: 'Child Safeguarding Policy 2024', file: '/resources/CHILD SAFE GUARDING POLICY.pdf' },
   { name: 'Job Aids', file: '/resources/JOB AIDS BOOKLET.pdf' },
+  { name: 'CM Job Aid Charts', file: '/resources/CM JOB AID CHARTS.pdf' },
   { name: 'Case Management Booklet (CCCU version 2020)', file: '/resources/CASE MANAGEMENT BOOKLET.pdf' },
   { name: 'Case Management Booklet (Separated Children 2019)', file: '/resources/MGLSD CM TOOLS FOR SEPERATED CHILDREN FOR REINTERGRATION - 2023.pdf' },
   { name: 'Case Management Booklet (Child Programming 2019)', file: '/resources/MGLSD CASE MANAGEMENT SOPS & TOOLS FOR CHILD PROGRAMMING - 2019.pdf' },
