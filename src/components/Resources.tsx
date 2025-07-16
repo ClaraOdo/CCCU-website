@@ -1,13 +1,13 @@
 import React from 'react';
 
 const resources = [
-  { name: 'Child Safeguarding Policy 2024', file: '' },
+  { name: 'Child Safeguarding Policy 2024', file: '/resources/CHILD SAFE GUARDING POLICY.pdf' },
   { name: 'Job Aids', file: '' },
-  { name: 'Case Management Booklet (CCCU version 2020)', file: '' },
-  { name: 'Case Management Booklet (Separated Children 2019)', file: '' },
-  { name: 'Case Management Booklet (Child Programming 2019)', file: '' },
-  { name: 'Children Act', file: '' },
-  { name: 'Panel Code Act', file: '' },
+  { name: 'Case Management Booklet (CCCU version 2020)', file: '/resources/CASE MANAGEMENT BOOKLET.pdf' },
+  { name: 'Case Management Booklet (Separated Children 2019)', file: '/resources/MGLSD CM TOOLS FOR SEPERATED CHILDREN FOR REINTERGRATION - 2023.pdf' },
+  { name: 'Case Management Booklet (Child Programming 2019)', file: '/resources/MGLSD CASE MANAGEMENT SOPS & TOOLS FOR CHILD PROGRAMMING - 2019.pdf' },
+  { name: 'Children Act', file: '/resources/THE CHILDREN (AMENDMENT) ACT, 2016.pdf' },
+  { name: 'Panel Code Act', file: '/resources/Penal Code Act.pdf' },
 ];
 
 const Resources = () => (
