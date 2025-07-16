@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-4 gap-8">
+        <div className="grid lg:grid-cols-2 gap-6">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
+            <div className="flex items-center space-x-2 mb-6">
               <img 
                 src="/new logo for cccu.jpg" 
                 alt="CCCU Logo" 
@@ -39,6 +39,7 @@ const Footer = () => {
               <li><a href="#history" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">History</a></li>
               <li><a href="#achievements" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">Achievements</a></li>
               <li><a href="#spoon" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">SPOON Partnership</a></li>
+              <li><a href="#newsletter" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">Newsletter</a></li>
             </ul>
           </div>
 
