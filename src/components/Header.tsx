@@ -10,13 +10,13 @@ const Header = () => {
 
   const navItems = [
     // { name: 'About Us', href: '#about' },
-    { name: 'Mile Stones', href: '#milestones' },
     { name: 'Team', href: '#team' },
+    { name: 'Mile Stones', href: '#milestones' },
     // { name: 'History', href: '#history' },
     { name: 'Achievements', href: '#achievements' },
-    { name: 'Gallery', href: '#gallery' },
     { name: 'Impact', href: '#impact' },
-    // { name: 'Resources', href: '#resources' }, // Remove this line
+    { name: 'Gallery', href: '#gallery' },
+    // Resources dropdown will be rendered before SPOON
     { name: 'SPOON', href: '#spoon' },
   ];
 
@@ -77,7 +77,17 @@ const Header = () => {
                 </div>
               )}
             </div>
-            {/* Resources Dropdown */}
+            {/* Other nav items before Resources */}
+            {navItems.slice(0, navItems.length - 1).map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
+              >
+                {item.name}
+              </a>
+            ))}
+            {/* Resources Dropdown (before SPOON) */}
             <div className="relative group" onMouseEnter={() => setResourcesDropdown(true)} onMouseLeave={() => setResourcesDropdown(false)}>
               <button
                 className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium focus:outline-none flex items-center gap-1"
@@ -102,16 +112,14 @@ const Header = () => {
                 </div>
               )}
             </div>
-            {/* Other nav items */}
-            {navItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
-              >
-                {item.name}
-              </a>
-            ))}
+            {/* SPOON nav item last */}
+            <a
+              key={navItems[navItems.length - 1].name}
+              href={navItems[navItems.length - 1].href}
+              className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
+            >
+              {navItems[navItems.length - 1].name}
+            </a>
           </nav>
 
           {/* Donate Button and Mobile Menu */}
@@ -165,7 +173,18 @@ const Header = () => {
                   </div>
                 )}
               </div>
-              {/* Resources Section */}
+              {/* Other nav items before Resources */}
+              {navItems.slice(0, navItems.length - 1).map((item) => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {item.name}
+                </a>
+              ))}
+              {/* Resources Section (before SPOON) */}
               <div className="border-b border-gray-200 pb-4">
                 <button
                   onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}
@@ -193,17 +212,15 @@ const Header = () => {
                   </div>
                 )}
               </div>
-              {/* Other nav items */}
-              {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </a>
-              ))}
+              {/* SPOON nav item last */}
+              <a
+                key={navItems[navItems.length - 1].name}
+                href={navItems[navItems.length - 1].href}
+                className="text-gray-700 hover:text-emerald-600 transition-colors duration-200 font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {navItems[navItems.length - 1].name}
+              </a>
             </nav>
           </div>
         )}

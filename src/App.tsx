@@ -25,13 +25,13 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Milestones />
       <Team />
+      <Milestones />
       <History />
       <Achievements />
-      <Gallery />
       <Impact />
       <ImpactInNumbers />
+      <Gallery />
       <Resources />
       <Spoon />
       <SpoonTeam />
