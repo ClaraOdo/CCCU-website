@@ -45,16 +45,12 @@ const About = () => {
         </div>
 
         <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
-          <h3 className="text-3xl font-bold text-gray-900 mb-6">Put Family First Initiative</h3>
+          <h3 className="text-3xl font-bold text-gray-900 mb-6">Put Family First Initiative (2026–2028)</h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            With support from the U.S. government, ARU_CCCU is launching the "Put Family First" initiative. 
-            This transformative program aims to promote, fund, and support nurturing, loving, protective, 
-            and permanent family care for vulnerable children.
+           ARU_CCCU is launching the Put Family First initiative — a transformative three-year program (2026–2028) that is promoting, funding, and supporting nurturing, loving, protective, and permanent family care for vulnerable children.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Recognizing children as the most vulnerable members of society, we believe it is our collective 
-            responsibility to safeguard their welfare. Research consistently emphasizes the importance of 
-            a loving and nurturing family environment for children's holistic development.
+           We are recognizing children as the most vulnerable members of society and are taking collective responsibility to safeguard their wellbeing. Research is continuing to show that a safe and loving family environment is key to a child’s holistic development. Through this initiative, we are committing to making sure every child is growing up in a family — not in an institution.
           </p>
         </div>
       </div>

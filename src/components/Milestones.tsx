@@ -33,8 +33,8 @@ const Milestones = () => {
     },
     {
       title: "Phase III",
-      period: "2018 - 2019",
-      duration: "2 Years",
+      period: "2021 - 2024",
+      duration: "4 Years",
       icon: Users,
       color: "purple",
       description: "Mass rollout of community/family-based care transitions while maintaining the highest standards for Catholic care institutions and strengthening spiritual formation programs.",
@@ -72,7 +72,7 @@ const Milestones = () => {
     <section id="milestones" className="py-20 bg-gray-50 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-emerald-700 mb-4">Mile Stones</h2>
+          <h2 className="text-4xl font-bold text-emerald-700 mb-4">Milestones</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             CCCU program is currently structured in three phases that overlap each other
           </p>
